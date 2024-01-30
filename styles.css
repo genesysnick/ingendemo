@@ -47,7 +47,7 @@ header {
 }
 
 .hero {
-    background-image: url('images/hero.png'); /* Change the path to the new hero image */
+    background-image: url('images/hero1.png'); /* Change the path to the new hero image */
     background-size: cover;
     color: #fff;
     text-align: center;
