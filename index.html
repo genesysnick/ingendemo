@@ -2,24 +2,111 @@
 <html lang="en">
 
 <head>
-  <meta name="description" content="Webpage description goes here" />
-  <meta charset="utf-8">
-  <title>InGen</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InGen - Innovating the Future of Prehistoric Entertainment</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add any additional meta tags, stylesheets, or scripts here -->
 </head>
 
 <body>
-  
-<div class="container">
-  InGen Demo Page
-</div>
 
-<script>
-</script>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">InGen</h1>
+                <ul class="nav-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to InGen</h2>
+            <p>Your Gateway to the World of Dinosaurs</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About InGen</h2>
+            <p>InGen is a cutting-edge biotechnology company dedicated to the resurrection and preservation of extinct species. Our groundbreaking research and technological advancements have led to the creation of Jurassic Park, a world-renowned dinosaur theme park.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Dinosaur Cloning</h3>
+                <p>We specialize in extracting ancient DNA and using advanced cloning techniques to bring dinosaurs back to life.</p>
+            </div>
+            <div class="service">
+                <h3>Theme Park Development</h3>
+                <p>Our expertise extends to designing and developing state-of-the-art theme parks that provide an immersive experience for visitors.</p>
+            </div>
+            <div class="service">
+                <h3>Scientific Research</h3>
+                <p>InGen is committed to ongoing scientific research to better understand and preserve prehistoric life.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section (Include images and descriptions of past projects) -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <img src="jurassic_park_image.jpg" alt="Jurassic Park">
+                <h3>Jurassic Park</h3>
+                <p>Our flagship project, Jurassic Park, is a groundbreaking dinosaur theme park that captivates visitors with the wonders of the past.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or inquiries? Reach out to us!</p>
+            <form action="submit_form.php" method="post">
+                <!-- Include form fields for name, email, and message -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 InGen - Innovating the Future of Prehistoric Entertainment. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Add any additional scripts here -->
 
 </body>
+
 </html>
+
 
