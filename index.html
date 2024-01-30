@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InGen - Innovating the Future of Prehistoric Entertainment</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Add any additional meta tags, stylesheets, or scripts here -->
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
     <header>
         <nav>
             <div class="container">
@@ -20,13 +18,13 @@
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#services">Our Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Our Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <h2>Welcome to InGen</h2>
@@ -35,7 +33,6 @@
         </div>
     </section>
 
-    <!-- About Us Section -->
     <section id="about" class="about">
         <div class="container">
             <h2>About InGen</h2>
@@ -43,7 +40,6 @@
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
@@ -62,7 +58,6 @@
         </div>
     </section>
 
-    <!-- Portfolio Section (Include images and descriptions of past projects) -->
     <section id="portfolio" class="portfolio">
         <div class="container">
             <h2>Portfolio</h2>
@@ -75,13 +70,32 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-member">
+                <img src="team_member1.jpg" alt="Team Member 1">
+                <h3>Dr. John Hammond</h3>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="team_member2.jpg" alt="Team Member 2">
+                <h3>Dr. Ellie Sattler</h3>
+                <p>Lead Geneticist</p>
+            </div>
+            <div class="team-member">
+                <img src="team_member3.jpg" alt="Team Member 3">
+                <h3>Dr. Ian Malcolm</h3>
+                <p>Chaos Theorist</p>
+            </div>
+        </div>
+    </section>
+
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
             <p>Have questions or inquiries? Reach out to us!</p>
-            <form action="submit_form.php" method="post">
-                <!-- Include form fields for name, email, and message -->
+            <form action="submit_form.php" method="post" onsubmit="return validateForm()">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -96,18 +110,17 @@
         </div>
     </section>
 
-    <!-- Footer Section -->
     <footer>
         <div class="container">
             <p>&copy; 2024 InGen - Innovating the Future of Prehistoric Entertainment. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Add any additional scripts here -->
-
+    <script src="script.js"></script>
 </body>
 
 </html>
+
 
 
 
