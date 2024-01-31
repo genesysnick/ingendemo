@@ -44,10 +44,12 @@ header {
 .nav-links {
     list-style: none;
     display: flex;
+    margin: 0; /* Reset margin to avoid unexpected behavior */
+    padding: 0; /* Reset padding to avoid unexpected behavior */
 }
 
 .nav-links li {
-    margin-left: 20px; /* Adjust margin as needed */
+    margin-left: 20px;
 }
 
 .nav-links a {
