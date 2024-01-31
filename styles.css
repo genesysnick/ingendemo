@@ -28,14 +28,22 @@ header {
     background-color: #333;
     color: #fff;
     padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
 }
 
 .nav-links {
     list-style: none;
+    display: flex;
 }
 
 .nav-links li {
-    display: inline-block;
     margin-right: 20px;
 }
 
@@ -49,6 +57,7 @@ header {
 .hero {
     background-image: url('images/hero.png'); /* Change the path to the new hero image */
     background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
     padding: 100px 0;
