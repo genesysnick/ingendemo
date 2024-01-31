@@ -24,6 +24,12 @@ body {
     margin: 0 auto;
 }
 
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header {
     background-color: #333;
     color: #fff;
